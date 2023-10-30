@@ -1,9 +1,9 @@
 alert('ola mundo')
-function tocaSomPom(){
+function playSoundPom(){
     document.querySelector("#Som_tecla_pom").play();
 }
 
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
+document.querySelector('.tecla_pom').onclick = PlaySoundPom;
 
 function tocaSomClap(){
     document.querySelector("#Som_tecla_clap").play();
